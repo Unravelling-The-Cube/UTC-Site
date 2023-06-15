@@ -24,8 +24,15 @@ button{
     font-size: 25px;
 }
 #rules{
-    margin-left: 200px;
+    margin-left: 100px;
+}
+#about{
+    margin-left: 100px;
+}
+#contact{
+    margin-left: 100px;
 }
 .header{
     display:inline;
+    color:#c98758;
 }
