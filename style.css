@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+}
+header{
+    display:block;
+}
+div#a {
+    text-align: center;
+    color:#c98758; 
+}
+h1 {
+    font-size: 60px;
+}
+h3 {
+    font-size:45px;
+}
