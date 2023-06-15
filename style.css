@@ -1,9 +1,11 @@
 body{
     background-color: black;
+    font-family:sans-serif;
 }
 header{
     display:block;
-    margin-top:25px;
+    background-color:lightgray;
+    border-radius: 5px;
 }
 div#a {
     text-align: center;
@@ -40,6 +42,8 @@ button{
     color:#c98758;
 }
 footer{
-    display:inline-block;
-    margin-top:100px
+    display:block;
+    margin-top:100px;
+    background-color:lightgray;
+    border-radius: 5px;
 }
