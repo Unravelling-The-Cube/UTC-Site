@@ -13,9 +13,15 @@ div#a {
 }
 h1 {
     font-size: 60px;
+    color:#c98758;
+}
+h2{
+    font-size:40px;
+    color:#c98758;
 }
 h3 {
     font-size:45px;
+    color:#c98758;
 }
 button{
     background-color:black;
@@ -25,25 +31,33 @@ button{
     height:100px;
     font-size: 25px;
 }
-#home{
-    margin-left:100px;
-}
-#rules{
-    margin-left: 100px;
-}
-#about{
-    margin-left: 100px;
-}
-#contact{
-    margin-left: 100px;
-}
 .header{
     display:inline;
     color:#c98758;
+    margin-left:100px;
 }
 footer{
     display:block;
     margin-top:100px;
     background-color:lightgray;
     border-radius: 5px;
+}
+label{
+color: #c98758;
+}
+input{
+    margin-top:50px;
+}
+p{
+color:#c98758;
+}
+.center{
+    text-align: center;
+}
+.side-margin{
+    margin-left: 200px;
+    margin-right:200px;
+}
+ul{
+    color:#c98758;
 }

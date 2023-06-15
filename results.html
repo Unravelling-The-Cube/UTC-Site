@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head>
         <link rel="stylesheet" href="style.css">
@@ -22,13 +23,28 @@
             <p class="header" id="results">Results</p>
         </a>
         </header>
-        <div id="a">
-        <h1>Welcome to Unravelling the Cube!</h1>
-        <h3>A Discord based server for users to compete in cubing<br> competitions and to hangout with each other!</h3>
-        <a href="https://discord.gg/YyPyaDFTtA" target="_blank">
-        <button type:"button"><strong>Join our Discord!</strong></button>
-        </a>
-        </div>
+        <form>
+            <label for="competitor">Search for a competitor</label>
+            <input id="competitor" type="text">
+            <br>
+            <h3>Choose an event.</h3>
+            <label for="2">2x2</label>
+            <input id="2" type="radio" name="event">
+            <label for="3">3x3</label>
+            <input id="3" type="radio" name="event">
+            <label for="4">4x4</label>
+            <input id="4" type="radio" name="event">
+            <label for="5">5x5</label>
+            <input id="5" type="radio" name="event">
+            <label for="2oh">2x2 OH</label>
+            <input id="2oh" type="radio" name="event">
+            <label for="3oh">3x3 OH</label>
+            <input id="3oh" type="radio" name="event">
+            <label for="4oh">4x4 OH</label>
+            <input id="4oh" type="radio" name="event">
+            <label for="pyr">Pyraminx</label>
+            <input id="pyr" type="radio" name="event">
+        </form>
         <footer>
             <a href="https://twitter.com/UnravellingCube">
                 <img class="socials" src="twit.webp" wdith="50" height="50">
@@ -45,6 +61,6 @@
             <a href="https://discord.com/invite/YyPyaDFTtA">
                 <img class="socials"src="disc.webp" height="50" width="50">
             </a>
-        </footer>
+        </footer>  
     </body>
 </html>
