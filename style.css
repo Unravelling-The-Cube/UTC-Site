@@ -34,7 +34,9 @@ button{
 .header{
     display:inline;
     color:#c98758;
-    margin-left:100px;
+    margin-left:90px;
+    font-size: 25px;
+    font-weight: bold;
 }
 footer{
     display:block;
