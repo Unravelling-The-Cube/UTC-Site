@@ -70,3 +70,12 @@ ul{
 .header:hover{
     font-size: 33px;
 }
+.socials{
+    size:100%;
+    transition-property: size;
+    transition-duration: 0.3s;
+    transition-delay: 0s;
+}
+.socials:hover{
+    size:132%;
+}
